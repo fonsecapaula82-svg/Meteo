@@ -12,7 +12,7 @@ function showTemperature(response) {
   cityElement.innerHTML = response.data.city;
   descriptionElement.innerHTML = response.data.condition.description;
   temperatureElement.innerHTML = Math.round(temperature);
-  humidityElement.innerHTML = `${response.data.humidity}%`;
+  humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
   windElement.innerHTML = `${Math.round(response.data.wind.speed)} Km/h`;
 }
 
