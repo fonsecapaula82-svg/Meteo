@@ -79,17 +79,18 @@ main {
 }
 .weather-app-temperature {
   font-size: 88px;
+  margin-left: 10px;
   font-weight: bold;
-  line-height: 1; /* keep temp + unit tight */
+  line-height: 88px; /* keep temp + unit tight */
 }
 .weather-app-icon {
-  font-size: 44px;
-  margin: 10px 5px 0 0; /* adjust top margin so it lines up nicely */
+  width: 80px;
+  height: 80px;
 }
 
 .weather-app-unit {
-  font-size: 28px;
-  margin-top: 12px; /* push C down slightly so it aligns with the number */
+  font-size: 20px;
+  margin-top: 20px; /* push C down slightly so it aligns with the number */
 }
 
 footer {
